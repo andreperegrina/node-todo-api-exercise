@@ -4,6 +4,8 @@ El objetivo de este proyecto es crear un API de una lista de tareas.
 
 En este archivo se describen todas las actividades a realizar.
 
+## API
+
 El API debe constar de 5 endpoints que se describen a continuación:
 
 * POST /todo - Esta ruta debe generar una nueva tarea
@@ -13,3 +15,14 @@ El API debe constar de 5 endpoints que se describen a continuación:
 * DELETE /todo/:id - Esta ruta debe eliminar la tarea con el identificador recibido
 * PATCH /todo/:id - PUNTOS EXTRASS - Esta ruta debe buscar y actualizar solo las propiedades enviadas de la tarea 
 
+## Almacenamiento
+
+Para almacenar la información pueden utilizar un arreglo o objeto definido al inicio del archivo y 
+ese mismo ir concatenando o modificando la información
+
+Otra alternativa es utilizar [Sequelize](https://sequelize.org/) ó [Mongoose](https://mongoosejs.com/) como ORMS
+para una base de datos local.
+
+## Paqueteria
+
+Utilizar [dotenv](https://github.com/motdotla/dotenv) para las variables de ambiente

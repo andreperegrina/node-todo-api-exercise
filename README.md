@@ -32,6 +32,14 @@ El API debe constar de 5 endpoints que se describen a continuación:
 Para este ejercicio se estará trabajando con un controlador para manejar toda la lógica de las rutas. 
 El nombre del archivo debe ser `todo.controller.js`
 
+Nombrar los métodos de cada acción de esta manera:
+
+* getAll
+* create
+* get
+* put
+* delete
+
 ## DATOS
 
 Se debe crear una clase para las tareas y se debe llamar `todo.model.js`. 

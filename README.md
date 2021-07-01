@@ -32,6 +32,14 @@ El API debe constar de 5 endpoints que se describen a continuación:
 Para este ejercicio se estará trabajando con un controlador para manejar toda la lógica de las rutas. 
 El nombre del archivo debe ser `todo.controller.js`
 
+Nombrar los métodos de cada acción de esta manera:
+
+* getAll
+* create
+* get
+* put
+* delete
+
 ## DATOS
 
 Se debe crear una clase para las tareas y se debe llamar `todo.model.js`. 
@@ -41,6 +49,10 @@ Para almacenar la información utilizaremos un arreglo. Esto nos permitirá guar
 
 Otra alternativa es utilizar [Sequelize](https://sequelize.org/) ó [Mongoose](https://mongoosejs.com/) como ORM
 para una base de datos local.
+
+## PRUEBAS
+
+Para probar que el ejercicio está completo ejecutar el comando `jest` en la terminal.
 
 ## LIBRERÍAS
 

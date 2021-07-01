@@ -9,6 +9,7 @@ En este archivo se describen todas las actividades a realizar.
 ```
 src
 │__ index.js
+│__ app.js
 └───models
 │   │___ todo.model.js
 └───controllers

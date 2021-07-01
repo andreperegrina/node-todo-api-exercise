@@ -11,7 +11,7 @@ exports.create = (req, res) => {
     res.send(newUser);
 };
 
-exports.get = (req, res) => {
+exports.getAll = (req, res) => {
     res.send(storage);
 };
 

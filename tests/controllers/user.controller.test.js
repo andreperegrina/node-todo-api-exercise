@@ -7,7 +7,7 @@ userController.storage.push(new User());
 describe('User controller test\'s', function () {
     it("should return a list of users", (done) => {
         const {req, res} = generateControllerParams();
-        userController.get(req, res);
+        userController.getAll(req, res);
         expect(res.send).toHaveBeenCalledWith(expect.arrayContaining([expect.any(User)]));
         done();
     });

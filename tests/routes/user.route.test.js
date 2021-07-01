@@ -2,7 +2,7 @@ const request = require("supertest");
 const app = require("../../src/app");
 
 
-describe('User controller test\'s', function () {
+describe('User routes test\'s', function () {
     it("should response the GET method with status 200", (done) => {
         request(app)
             .get("/users")
